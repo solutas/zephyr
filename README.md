@@ -6,10 +6,26 @@ Zephyr is a lightweight service worker library designed to provide efficient cac
 
 ## Installation
 
+You can either install Zephyr via npm:
+
+```
+npm install @solutas/zephyr --save
+```
+or load the installer via CDN
+
+## Setup
+
 To integrate Zephyr into your web application, follow these steps:
 
-1. Add the `zephyrConfig.js` file to your root directory of the project.
+1. Create the `zephyrConfig.js` file to your root directory of the project.
 2. Add the following code to your HTML file, preferably before the closing </body> tag or use include the ```zephyrInstall.js``` script from lib, to register the service worker:
+
+```html
+<!-- in your head section -->
+<script type="module" src="https://www.unpkg.com/@solutas/zephyr@0.0.3/lib/zephrInstall.js"></script>
+```
+
+or you can manually load the web worker like this (or copy the file when isntalled via npm):
 
 ```javascript
 if ('serviceWorker' in navigator) {
@@ -36,8 +52,9 @@ In the `zephyrConfig.js` file, define your caching rules and configuration. Zeph
 
 ```javascript
 
-// you can also point to the CDN version or where ever it is located
-importScripts("./lib/zephyrWorker.js");
+// either use cdn or copy the worker to your public site somewhere, while the zephyrConfig.js file must be in root
+// this can be anywhere
+importScripts("https://www.unpkg.com/@solutas/zephyr@0.0.3/lib/zephyrWorker.js");
 
 // Define your configuration, including resources to cache
 const config = { 

@@ -14,7 +14,7 @@
 // this is an example config file
 
 // Import the worker script
-importScripts("./lib/zephyrWorker.js");
+importScripts("https://www.unpkg.com/@solutas/zephyr@0.0.2/lib/zephyrWorker.js");
 
 // Define your configuration, including resources to cache
 const config = { 
