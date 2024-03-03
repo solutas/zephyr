@@ -86,7 +86,7 @@ Replace the example rules with your specific caching requirements.
 
 ## What It Does
 Zephyr intercepts network requests made by your web application and caches responses based on the defined rules in zephyrConfig.js. This allows for faster subsequent loads of resources and enables offline access to cached content.
-
+Zephyr can also cache POST requests. It will take the hash of the payload as key to differenciate. Please be careful not to save sensitive data.
 
 ## GitHub Issues
 For inquiries, bug reports, and support, please use GitHub Issues: [Zephyr Issues](https://github.com/solutas/zephyr/issues)
