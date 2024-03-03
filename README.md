@@ -83,6 +83,8 @@ if (initZephyr) {
 
 Replace the example rules with your specific caching requirements.
 
+## Debug
+You can add ```?zephyrDebug=true``` to the url to get some more debug information in the developer console.
 
 ## What It Does
 Zephyr intercepts network requests made by your web application and caches responses based on the defined rules in zephyrConfig.js. This allows for faster subsequent loads of resources and enables offline access to cached content.
