@@ -1,5 +1,6 @@
-
-<img src="logo.webp" alt="Zephyr Logo" height="100">
+<div style="text-align:center;">
+    <img src="logo.webp" alt="Zephyr Logo" height="150">
+</div>
 
 # Zephyr
 
