@@ -1,7 +1,12 @@
 {
   "name": "@solutas/zephyr",
   "description": "Lightweight service worker library designed to provide efficient caching strategies for web applications",
-  "categories": ["serviceworker", "caching"],
+  "keywords": [
+    "serviceworker",
+    "caching"
+  ],
+  "homepage": "https://github.com/solutas/Zephyr#readme",
+  "author": "Senol Tas <senol@solutas.ch> (https://www.solutas.ch)",
   "files": [
     "dist"
   ],
@@ -9,7 +14,12 @@
   "scripts": {
     "dev": "vite"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solutas/Zephyr"
+  },
   "devDependencies": {
     "vite": "^5.1.4"
-  }
+  },
+  "license": "Apache-2"
 }
