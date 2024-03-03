@@ -22,7 +22,7 @@ To integrate Zephyr into your web application, follow these steps:
 
 ```html
 <!-- in your head section -->
-<script type="module" src="https://www.unpkg.com/@solutas/zephyr@0.0.3/lib/zephrInstall.js"></script>
+<script type="module" src="https://www.unpkg.com/@solutas/zephyr@0.0.4/lib/zephrInstall.js"></script>
 ```
 
 or you can manually load the web worker like this (or copy the file when isntalled via npm):
@@ -54,7 +54,7 @@ In the `zephyrConfig.js` file, define your caching rules and configuration. Zeph
 
 // either use cdn or copy the worker to your public site somewhere, while the zephyrConfig.js file must be in root
 // this can be anywhere
-importScripts("https://www.unpkg.com/@solutas/zephyr@0.0.3/lib/zephyrWorker.js");
+importScripts("https://www.unpkg.com/@solutas/zephyr@0.0.4/lib/zephyrWorker.js");
 
 // Define your configuration, including resources to cache
 const config = { 
