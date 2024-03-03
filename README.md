@@ -1,4 +1,8 @@
+
+<img src="logo.webp" alt="Zephyr Logo" height="100">
+
 # Zephyr
+
 Zephyr is a lightweight service worker library designed to provide efficient caching strategies for web applications. It offers a simple yet powerful way to cache network requests and responses using IndexedDB, enabling offline access and performance optimization.
 
 ⚠️ **Please note that Zephyr is currently under development and may not be suitable for production use. Use at your own risk.**
