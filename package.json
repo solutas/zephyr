@@ -1,0 +1,15 @@
+{
+  "name": "@solutas/zephyr",
+  "description": "Lightweight service worker library designed to provide efficient caching strategies for web applications",
+  "categories": ["serviceworker", "caching"],
+  "files": [
+    "dist"
+  ],
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  }
+}
